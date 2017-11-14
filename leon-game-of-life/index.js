@@ -33,6 +33,7 @@ let restart = () => {
     // cells[i][0] = getRandom()
   }
   framesModel = !framesModel
+  tick = 0
 }
 
 let doSin = () => {
@@ -63,7 +64,6 @@ let doSin = () => {
     ctx.fillStyle = 'hsla(0, 0%, ' + (0.5 + Math.sin(tick++ / 100) * 0.5) * 100 + '%, 0.1)'
     ctx.fill()
   }
-  tick = 0
   stepSin()
   drawSin()
 }
