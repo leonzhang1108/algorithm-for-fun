@@ -1,5 +1,5 @@
 /**
- * LIS = Longest increasing subsequence.
+ * LIS = Longest increasing subsequence. 最长上升子序列问题
  * Input = [10, 22, 9, 33, 21, 50, 41, 60, 80]
  * Output = [10, 22, 33, 50, 60, 80]
  * Created by gaurav on 1/7/15.
